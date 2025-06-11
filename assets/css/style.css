@@ -1,0 +1,130 @@
+/* SHARED STYLES */
+.btn_primary {
+  font-family: 'Azeret Mono', monospace;
+  padding: 20px 18px;
+  color: #0D1321;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: 0.33s ease-in-out;
+}
+.btn_primary:hover {
+  background-color: #0D1321;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+/* CONTACT WITH ME BUTTON */
+.mt-28{
+  margin-top: 28px;
+  font-family: 'Azeret Mono', monospace;
+  padding: 20px 18px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #0D1321;
+  transition: 0.33s ease-in-out;
+}
+.mt-28:hover {
+  background-color: #fff;
+  color: #0D1321;
+  transition: 0.3s ease-in-out;
+}
+.p-right{
+  padding-right: 8px;
+  border: none;
+}
+/* FONT START (USED IN BODY TAG) */
+.azeret_mono {
+  font-family: 'Azeret Mono', monospace;
+  margin: 0;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+.header{
+  margin: 0 auto;
+  padding: 0;
+}
+.header-bg{}
+/* NAV START */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+.bgi{
+  background-image: url('../img/Hero-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.logo{}
+.nav-links{}
+/* BANNER START */
+.banner {
+  height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;      
+}
+.banner_content{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.banner_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.banner_img{
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+}
+.banner_intro{
+  text-align: center;
+}
+.banner_item {}
+.banner-title{
+  font-size: 48px;
+  line-height: 1.4;
+  font-weight: 900;
+}
+.banner-title span {
+  display: block;
+}
+.banner-description{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0D1321;
+}
+/* MAIN START */
+.color_bg{
+  border-radius: 8px;
+  padding: 28px;
+  margin: 148px 74px 148px 74px;
+  background-color: #fafafa;
+}
+.y_web_dev{
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.web_intro{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bgc_white{
+  border-radius: 8px;
+  padding: 18px;
+  background-color: #FFFFFF;
+}
