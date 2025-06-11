@@ -37,7 +37,7 @@
   transition: 0.3s ease-in-out;
 }
 .btn_thirty_two{
-  border-radius: 0px;
+  border-radius: ;
   font-size: 20px;
   margin-top: 32px;
 }
@@ -134,14 +134,21 @@
   justify-content: space-around;
   align-items: center;
 }
+.web_intro2{
+  margin: 62px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .bgc_white{
   border-radius: 8px;
   padding: 48px;
   background-color: #FFFFFF;
 }
-.web_heading{
-  font-size: 24px;
-  font-weight: 700;
+.bgc_white2{
+  border-radius: 8px;
+  padding: 48px;
+  background-color: #FFFFFF;
 }
 .web_desc{
   margin-top: 10px;
