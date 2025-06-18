@@ -111,6 +111,7 @@
   display: block;
 }
 .banner-description{
+  margin-top: 24px;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -154,3 +155,14 @@
   margin-top: 10px;
   font-size: 16px;
 }
+/* INSPIRATION START */
+.vid_section{
+  text-align: center;
+}
+.vid_description{
+  margin-top: 24px;
+}
+.vid_link{
+  margin-top: 60px;
+}
+/* INSPIRATION END */
