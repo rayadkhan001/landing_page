@@ -1,7 +1,7 @@
 /* ******************--GLOBAL & NESTED STYLES START--****************** */
 * {
   margin: 0;
-  padding: 0;
+  padding: 0;;
   box-sizing: border-box;
 }
 html,
@@ -22,7 +22,7 @@ body {
 .btn_primary:hover {
   background-color: #0D1321;
   color: #fff;
-  transition: 0.3s ease-in-out;
+  transition: 0.33s ease-in-out;
 }
 .bgi {
   background-image: url('../img/Hero-bg.png');
@@ -56,7 +56,7 @@ body {
   margin-left: 18px;
 }
 .mt_24 {
-  margin-top: 24px;
+  margin-top: 24px !important;
 }
 .p-right {
   padding-right: 8px;
@@ -82,8 +82,7 @@ body {
 
 
 /* **************************************************--HEADER START--************************************************************ */
-.header{}
-.header_bg{}
+/* HEADER */
 /* NAVBAR STYLE */
 .navbar {
   display: flex;
@@ -92,11 +91,6 @@ body {
   padding: 20px;
   background-color: #fff;
 }
-.logo{}
-.header_title{}
-.nav_links{}
-.nav_link_list{}
-.logo {}
 /* ***************************************************--HEADER END--************************************************************* */
 
 
@@ -135,7 +129,6 @@ body {
   font-weight: 900;
   line-height: 1.4;
 }
-.banner_heading{}
 .banner-title span {
   display: block;
 }
@@ -147,7 +140,6 @@ body {
   line-height: 24px;
 }
 /* ***************************************************--MAIN START--************************************************************ */
-.main{}
 .color_bg {
   margin: 0px 74px 0px 74px;
   padding: 28px;
@@ -159,7 +151,6 @@ body {
   font-weight: 700;
   text-align: center;
 }
-.y_web_dev_content{}
 /* FONT (USED IN BODY TAG) */
 .azeret_mono {
   margin: 0;
@@ -174,16 +165,11 @@ body {
   border-radius: 12px;
   background-color: #FFFFFF;
 }
-.web_title{}
-.web_heading{}
+
 .web_desc {
   margin-top: 10px;
   font-size: 16px;
 }
-.group_img{}
-.web_title2{}
-.web_heading2 {}
-.web_desc2 {}
 /* INSPIRATION */
 .vid_section, .vid_content {
   text-align: center;
@@ -202,40 +188,38 @@ body {
 .vid_link {
   margin-top: 60px;
 }
+/* ***************************************************--BANNER END--************************************************************ */
+
+
+
+
+
+
+
+
 /* ***************************************************--MY CURRENT-TARGET-CONTENT START--************************************************************ */
-.my_target_section {}
-.my_target_content {}
 .my_target_title {
-  margin-top: 151px;
-  margin-bottom: 24px;
   font-size: 32px;
   font-weight: 700;
   text-align: center;
 }
 .target_p {
-  text-align: center;
+  margin-bottom: 12px;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
+  text-align: center;
   color: #0D1321;
-  margin-bottom: 48px;
+
 }
-.my_target_description {}
 .my_target_card_container {
   display: flex;
   flex-wrap: wrap;
-  padding: 32px 64px;
+  padding: 46px 64px;
   align-items: center;
   justify-content: center;
   gap: 24px;
 }
-.my_target_card{}
-.my_target_card_inner{}
-/* .my_target_card_inner img{} */
-/* or */
-/* .my_target_icon {} */
-.my_target_heading {}
-.my_target_desc {}
 .card_border_none {
   margin-top: 24px;
   padding: 2px;
@@ -260,6 +244,11 @@ body {
 }
 /* ***************************************************--MY CURRENT-TARGET-CONTENT END--************************************************************ */
 
+
+
+
+
+
 /* ***************************************************--MY NEXT-TARGET-CONTENT START--************************************************************ */
 .my_target_card {
   padding: 40px;
@@ -272,7 +261,6 @@ body {
 .my_target_icon {
   margin-top: 50px;
 }
-.my_target_text {}
 .my_target_heading {
   margin-top: 20px;
   margin-left: 8px;
@@ -309,10 +297,9 @@ body {
 /* ***************************************************--MY NEXT-TARGET-CONTENT STARTS--************************************************************ */
 .my_next_target_card_container {
   margin: 0 auto;
-  /* padding: 32px 64px; */
   width: 100%;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 .my_next_target_card {
   margin: 0 auto;
@@ -325,16 +312,17 @@ body {
   text-align: left;
   width: 90%;
 }
-.my_next_target_card_inner{}
-.my_next_target_card_inner img {}
-.my_next_target_heading {}
-
 .my_next_target_icon {
   width: 100%;
   text-align: left;
 }
-.my_next_target_icon2, .my_next_target_icon3{
-  margin-right: 18px;
+.my_next_target_icon2 {
+  margin-right: -46px;
+  width: 100%;
+  text-align: left;
+}
+.my_next_target_icon3{
+  margin-right: -9px;
   width: 100%;
   text-align: left;
 }
@@ -354,7 +342,80 @@ body {
 .my_next_target_card_inner {
   margin-left: 18px;
 }
+/* ***************************************************--MY-NEXT-TARGET ENDS--************************************************************ */
 
 
-
-/* ******************MY-NEXT-TARGET ENDS****************** */
+/* ***************************************************--NEED-SUPPORT START--************************************************************ */
+.need_support_section{
+  margin-top: 86px;
+}
+.need_support_content{
+  margin: 0 auto;
+  padding: 152px;
+  width: 95%;
+  align-items: center;
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/handshake.jpg');
+  background-repeat: no-repeat;
+}
+.need_support_title{
+  color: #FFFFFF;
+}
+.need_support_description{
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #dfdddd;
+  opacity: 0.9;
+}
+.support_btn_content {
+    align-items: center;
+    text-align: center;
+}
+.support_input {
+  padding: 24px 80px 18px 80px;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  width: 500px;
+}
+.submit_btn {
+  margin: 0 auto;
+  padding: 18px;
+  width: 120px;
+  align-items: center;
+  text-align: center;
+}
+/* ***************************************************--NEED-SUPPORT END--************************************************************ */
+/* FOOTER START */
+.footer{
+  padding: 40px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0D1321;
+  background-color: #fafafa;
+}
+.footer_content{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.footer_text{
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer_socials a {
+  color: #0D1321;
+  text-decoration: none;
+}
+.footer_title{
+  font-size: 24px;
+}
+/* FOOTER END */
