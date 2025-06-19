@@ -198,6 +198,9 @@ body {
 
 
 /* ***************************************************--MY CURRENT-TARGET-CONTENT START--************************************************************ */
+.my_target_content{
+  margin-top: 150px;
+}
 .my_target_title {
   font-size: 32px;
   font-weight: 700;
